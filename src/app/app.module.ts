@@ -4,10 +4,11 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-
+import { ReactComponentWrapperComponent } from './react-component-wrapper/react-component-wrapper.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ReactComponentWrapperComponent
   ],
   imports: [
     BrowserModule,
